@@ -4,23 +4,7 @@ This project utilizes the **BLIP (Bootstrapped Language-Image Pretraining)** mod
 
 ---
 
-## 📁 Project Structure
-
-```
-.
-├── Datasets
-│   ├── levir-cc           # Extracted LEVIR-CC dataset
-│   └── data_new           # Empty folder for new processed data
-├── saved_models           # Directory to save trained models
-├── levircc.py             # Script for dataset conversion
-├── fine_tune.py           # Training and testing script
-├── requirements.txt       # Required libraries
-└── README.md
-```
-
----
-
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1. Python Environment
 Ensure Python **3.11.1** is installed.
@@ -42,7 +26,6 @@ pip install -r requirements.txt
 
 2. **Create Necessary Folders**
    ```bash
-   mkdir -p Datasets/data_new
    mkdir saved_models
    ```
 
@@ -54,7 +37,9 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Training and Testing
+## Training and Testing
+
+The best model checkpoint can be found at: [example link](https://drive.google.com/file/d/1ALvze_0lqaf302DPIgJhbokd03Ymh-oN/view?usp=drive_link) 
 
 Once the dataset is prepared, start training and testing with the following command:
 
